@@ -1,11 +1,16 @@
-import React from "react";
 
-const Dashboard = () => {
-  return (
+import NavBarComponent from "./NavBarComponent";
+
+
+const Dashboard = ()=>{
+
+  return(
+
     <div>
-      <h1>Welcome to the Dashboard</h1>
+    <NavBarComponent/>
+      <h1>Welcome To Dashboard !</h1>
     </div>
-  );
-};
+  )
 
+}
 export default Dashboard;
